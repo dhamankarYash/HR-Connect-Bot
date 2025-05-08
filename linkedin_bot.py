@@ -66,4 +66,5 @@ for index, row in df.iterrows():
     except Exception as e:
         print(f"❌ Unexpected error with {name}: {e}")
         continue
+        
 driver.quit()
